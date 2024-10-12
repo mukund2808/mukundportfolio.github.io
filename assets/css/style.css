@@ -336,11 +336,11 @@ main {
 
 .resume-btn {
   background: var(--bg-gradient-yellow-1);
-  color: var(--smoky-black);
+  color: var(--white-1); /* White text color */
   border: none;
   padding: 10px 15px;
-  font-size: var(--fs-4);
-  font-weight: var(--fw-500);
+  font-size: var(--fs-2); /* Increase to a larger font size */
+  font-weight: var(--fw-650); /* Increase font weight if desired */
   border-radius: 8px;
   cursor: pointer;
   transition: var(--transition-1);
