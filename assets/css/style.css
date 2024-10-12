@@ -335,21 +335,24 @@ main {
 
 
 .resume-btn {
+  display: inline-block;
   background: var(--bg-gradient-yellow-1);
-  color: var(--white-1); /* White text color */
-  border: none;
+  color: var(--white-1) !important; /* Ensure text is white */
   padding: 10px 15px;
-  font-size: var(--fs-2); /* Increase to a larger font size */
-  font-weight: var(--fw-650); /* Increase font weight if desired */
+  font-size: var(--fs-2); /* Adjust to desired font size */
+  font-weight: var(--fw-600);
   border-radius: 8px;
-  cursor: pointer;
-  transition: var(--transition-1);
   text-align: center;
+  cursor: pointer;
+  text-decoration: none; /* No underline by default */
+  transition: var(--transition-1);
 }
 
 .resume-btn:hover {
   background: var(--bg-gradient-yellow-2);
+  text-decoration: underline; /* Add underline on hover */
 }
+
 
 
 
