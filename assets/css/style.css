@@ -335,23 +335,25 @@ main {
 
 
 .resume-btn {
-  background: hsl(45, 100%, 58%); /* Mustard color */
+  background-color: hsl(45, 54%, 58%); /* Mustard color */
   color: var(--white-1); /* White text */
   padding: 12px 20px;
-  font-size: var(--fs-4); /* Large font size */
-  font-weight: var(--fw-600);
+  font-size: var(--fs-4); /* Adjust font size as needed */
+  font-weight: var(--fw-600); /* Bold text */
   border-radius: 8px; /* Curved border */
   cursor: pointer;
   text-align: center;
   border: none;
-  transition: var(--transition-1);
+  width: 100%; /* Full width */
+  display: block; /* Ensures it covers full width of container */
+  transition: background-color var(--transition-1), text-decoration var(--transition-1);
 }
 
 .resume-btn:hover {
-  background: hsl(45, 100%, 50%); /* Dark mustard on hover */
-  color: var(--white-1); /* White text on hover */
+  background-color: hsl(45, 54%, 50%); /* Darker mustard on hover */
   text-decoration: underline; /* Underline on hover */
 }
+
 
 
 
